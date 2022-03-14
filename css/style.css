@@ -5,11 +5,12 @@
     border: 1px solid #fff;
     text-align: center;
     color: #fff;
-    padding: 15px;
+    padding: 15px;    
 }
 
 .box_nested{
     background-color:  #00e165;
+    padding: 10px;
 }
 
 .box_large{
