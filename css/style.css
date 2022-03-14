@@ -1,12 +1,22 @@
 
-/* general rules */
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;  
+.box, .box_nested{
+    min-height: 50px;
+    background: blue;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
 }
 
-.container{
-    width: 1170px;
-    margin: 0 auto;
+.box_nested{
+    background: #00e165;
+    background-color: #006cfa;
+}
+
+.box_large{
+    height: 100px;
+}
+
+section{
+    margin-bottom: 20px;
 }
