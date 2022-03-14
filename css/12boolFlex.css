@@ -5,14 +5,18 @@
 }
 
 .container{
-    width: 1170px;
+    width: 1400px;
     margin: 0 auto;
+}
+
+.container_fluid{
+    width: 100%;
 }
 
 .row{
    display: flex;
    flex-direction: row;
-   flex-wrap: nowrap;
+   flex-wrap: wrap;
    width: 100%;
 }
 
@@ -21,7 +25,7 @@
     flex-shrink: 0;
     flex-basis: 25%;
     max-width: 25%;
-}
+} 
 
 [class*="col-"] {
     flex: 0 0 auto;
@@ -139,4 +143,19 @@
 
 .col-12-offset-12{
     margin-left: calc((100% / 12) * 12);
+}
+
+.start.col{
+    justify-content: start;
+    text-align: center;
+}
+
+.center.col{
+    justify-content: center;
+    text-align: center;
+}
+
+.end.col{
+    justify-content: flex-end;
+    text-align: right;
 }
