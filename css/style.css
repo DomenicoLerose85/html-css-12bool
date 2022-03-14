@@ -1,7 +1,7 @@
 
 .box, .box_nested{
     min-height: 50px;
-    background: blue;
+    background: #006cfa;
     border: 1px solid #fff;
     text-align: center;
     color: #fff;
@@ -9,7 +9,6 @@
 }
 
 .box_nested{
-    /* background: #00e165; */
     background-color:  #00e165;
 }
 
